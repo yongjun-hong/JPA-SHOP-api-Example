@@ -22,6 +22,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	implementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-hibernate5'
 	implementation("com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.7.1")
 	implementation 'org.springframework.boot:spring-boot-devtools' // html 서버 재시작 하지 않아도 변경하게 해준다.
 	// ctrl + shift + F9누르면 recomplie이 된다. recomplie하고 페이지 새로고침 하면 된다.
